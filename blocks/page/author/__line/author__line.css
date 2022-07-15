@@ -1,0 +1,14 @@
+.author__line {
+  display: block;
+  width: 85%;
+  height: 2px;
+  background: rgba(9, 187, 181, 1);
+  border: none;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .author__line {
+    width: 56%;
+  }
+}

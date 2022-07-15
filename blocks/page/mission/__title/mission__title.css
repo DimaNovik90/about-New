@@ -1,0 +1,17 @@
+.mission__title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  margin: 0;
+  padding-top: 45px;
+}
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .mission__title {
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}

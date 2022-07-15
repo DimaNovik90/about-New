@@ -1,0 +1,17 @@
+.mission {
+  display: flex;
+  flex-direction: column;
+  background: rgba(248, 250, 247, 1);
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../../../img/girl-mission.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .mission {
+    margin-top: 100px;
+    box-sizing: border-box;
+    background-image: none;
+  }
+}

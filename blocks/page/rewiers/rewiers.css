@@ -1,0 +1,9 @@
+.rewiers {
+  width: 100%;
+  padding-top: 129px;
+}
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .rewiers {
+    padding-top: 1200px;
+  }
+}

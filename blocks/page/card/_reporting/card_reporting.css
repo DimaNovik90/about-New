@@ -1,0 +1,13 @@
+.card_reporting {
+  background: rgba(250, 247, 240, 1);
+  background-image: url(../../../../img/notebook.svg);
+  background-repeat: no-repeat;
+  background-size: 371px 294px;
+  background-position: -680% 126%;
+}
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .card_reporting {
+    background-size: 208px 233px;
+    background-position: 106% 131%;
+  }
+}

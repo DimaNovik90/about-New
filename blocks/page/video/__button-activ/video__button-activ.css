@@ -1,0 +1,36 @@
+.video__button-activ {
+  display: block;
+  width: 112px;
+  height: 112px;
+  background: none;
+  border: none;
+  background-image: url(../../../../img/button-video.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  position: absolute;
+  top: 35px;
+  right: 268px;
+  animation: animationButton 30s linear infinite;
+}
+
+@keyframes animationButton {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .video__button-activ {
+    top: 23px;
+    left: 80px;
+  }
+}

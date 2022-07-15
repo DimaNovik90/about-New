@@ -1,0 +1,15 @@
+.card_florist {
+  background: rgba(250, 240, 240, 1);
+  background-image: url(../../../../img/girl1.svg);
+  background-repeat: no-repeat;
+  background-size: 402px 306px;
+  background-position: -120% 125%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .card_florist {
+    background-size: 208px 223px;
+    background-position: 146% 125%;
+  }
+}

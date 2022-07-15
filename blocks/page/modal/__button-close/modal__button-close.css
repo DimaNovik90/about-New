@@ -1,0 +1,30 @@
+.modal__button-close {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: none;
+  background-image: url(../../../../img/close-btn.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -47px;
+  right: -50px;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.modal__button-close:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .modal__button-close {
+    width: 40px;
+    height: 40px;
+    top: -42px;
+    right: -6px;
+  }
+}
